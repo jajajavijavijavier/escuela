@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+:root{
+	--white:  #EDF3ED ;
+	--pink: #8B21FB;
+	--orange: #ff7800;
+	--black:  #130f40;
+	--light-color: #666;
+	--border-bold: .5rem solid var(--black);
+	--box-shadow:0 .5rem 1rem rgba(0,0,0,.10);
+	--border:2rem solid rgba(0,0,0,.1);
+	--outline:1rem solid rgba(0,0,0,.1);
+	--outline-hover:.2rem solid var(--black);
+	--green: #58C383;
+	--bg: #4FC7E9;
+	--suave: #DFD9ED;
+}
+
+
+*{
+	font-family: 'poppins', sans-serif;
+	margin: 0 ;padding: 0;
+	box-sizing: border-box;
+	outline: none; border: none;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+.container{
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	padding-bottom: 60px;
+}
+
+.container .content{
+	text-align: center;
+}
+
+
+.container .content h3{
+	font-size: 30px;
+	color: #333;
+}
+
+
+.container .content h3 span{
+	background: var(--green);
+	color: var(--white);
+	border-radius: 5px ;
+	padding: 0 10px;
+
+}
+
+.container .content h1{
+	font-size: 50px;
+	color: #333;
+}
+
+.container .content h1 span{
+	color: var(--green);
+}
+
+.container .content p{
+	font-size: 25px;
+	margin-bottom: 20px;
+
+}
+
+.container .content .btn{
+	display: inline-block;
+	padding: 10px 30px;
+	font-size: 20px;
+	border-radius: 5px ;
+	background: var(--suave);
+	color: var(--black);
+	margin: 0 5px;
+	text-transform: capitalize;
+}
+
+.container .content .btn:hover{
+	background: var(--green);
+}
+
+.form-container{
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	padding-bottom: 60px;
+	background: #eee;
+}
+
+.form-container form{
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+	background: #fff;
+	text-align: center;
+	width: 500px;
+}
+
+.form-container form h3{
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	color: #333;
+
+}
+
+.form-container form input,
+.form-container form select{
+	width: 100%;
+	padding: 10px 15px;
+	font-size: 17px;
+	margin: 8px 0;
+	background: #eee;
+	border-radius: 5px;
+}
+
+.form-container form select option{
+	background: #fff;
+}
+
+.form-container form .form-btn{
+	background: var(--suave);
+	color: var(--green);
+	text-transform: capitalize;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.form-container form .form-btn:hover{
+	background: var(--green);
+	color: #fff;
+}
+
+.form-container form p{
+	margin-top:10px ;
+	font-size: 20px;
+	color: #333;
+}
+
+.form-container form p a{
+	color: var(--green);
+}
+
+.form-container form error-msg{
+margin: 10px 0;
+display: block;
+background:var(--pink) ;
+color: #fff;
+border-radius: 5px;
+font-size: 20px;
+padding: 10px;
+}
+
+
